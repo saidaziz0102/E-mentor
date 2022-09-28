@@ -1,0 +1,25 @@
+.offer {
+    margin-top: 116px;
+
+    &__inner {
+        display: flex;
+        justify-content: space-between;
+    }
+
+    &__item {
+        width: 22%;
+        text-align: center;
+
+        &-number {
+            font-size: 58px;
+            line-height: 100%;
+            color: $primarycolor;
+            text-align: center;
+            font-feature-settings: 'pnum'on, 'lnum'on;
+        }
+        &-text{
+            margin-top: 15px;
+            text-align: center;
+        }
+    }
+}

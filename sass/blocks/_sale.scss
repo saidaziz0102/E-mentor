@@ -1,0 +1,24 @@
+.sale {
+    height: 578px;
+    background-image: url(../images/sale/photo.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+
+    &__desc {
+        width: 508px;
+        margin-left: 700px;
+        padding-top: 120px;
+        padding-bottom: 120px;
+
+        &-text {
+            margin-top: 20px;
+        }
+
+        &-btn {
+            margin-top: 50px;
+            &:hover{
+                box-shadow: 0 0 10px $textcolor;
+            }
+        }
+    }
+}

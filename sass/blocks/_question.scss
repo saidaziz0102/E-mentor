@@ -1,0 +1,32 @@
+.question {
+    margin-top: 120px;
+
+    &__title {
+        max-width: 777px;
+        margin: 0 auto;
+    }
+
+    &__inner {
+        max-width: 830px;
+        margin: 0 auto;
+    }
+
+    &__item {
+        max-width: 100%;
+        box-shadow: 5px 5px 30px rgba(101, 101, 101, 0.12);
+        border-radius: 10px;
+        padding: 30px;
+        transition: all 1s ease-in-out;
+        &-title{
+            font-weight: 500;
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+        }
+        &-text{
+            padding-top: 15px;
+            color: black;
+            display: none;
+        }
+    }
+}

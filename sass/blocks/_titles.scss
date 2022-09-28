@@ -1,0 +1,13 @@
+
+@import '../base/variables';
+
+.title{
+    font-weight: 500;
+    font-size: 58px;  
+    &--white{
+        color: $ternarycolor;
+    }
+    &--black{
+        color: $textcolor;
+    }
+}

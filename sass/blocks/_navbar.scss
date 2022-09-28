@@ -1,0 +1,36 @@
+.navbar{
+    &__inner{
+        padding-top: 40px;
+        display: flex;
+        justify-content: space-between;
+    }
+    &__menu{
+        display: flex;
+        &-item{
+            margin-left: 40px;
+            border-bottom: 2px solid transparent;
+            transition: all .3s;
+            &:hover{
+                border-bottom: 2px solid $secondarycolor;
+            }
+        }
+    }
+    &__categoriees{
+        display: flex;
+        padding-top: 50px;
+        &-item{
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            padding-left: 15px;
+            &:hover .navbar__categoriees-icon{
+                color: $secondarycolor;
+            }
+        }
+        &-icon{
+            margin-left: 5px;
+            color: $ternarycolor;
+            transition: all .3s;   
+        }
+    }
+}

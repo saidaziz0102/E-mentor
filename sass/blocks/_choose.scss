@@ -1,0 +1,21 @@
+.choose{
+    margin-top: 120px;
+    background-color: $primarycolor;
+    &__img{
+        max-width: 30%;
+    }
+    &__wrapper{
+        display: flex;
+        justify-content: space-between;
+        padding: 120px 0 ;
+    }
+    &__desc{
+       width: 50%;
+        &-text{
+            margin-top: 20px;
+        }
+        &-btn{
+            margin-top: 50px;
+        }
+    }
+}

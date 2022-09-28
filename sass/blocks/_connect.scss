@@ -1,0 +1,27 @@
+.connect {
+    height: 578px;
+    background-image: url(../images/connect/photo.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    position: relative;
+
+    &__desc {
+        width: 40%;
+        position: absolute;
+        right: 0px;
+        padding-top: 120px;
+        height: 100%;
+
+        &-text {
+            margin-top: 20px;
+        }
+
+        &-btn {
+            margin-top: 50px;
+            &:hover{
+                box-shadow: 0 0 10px $textcolor;
+            }
+        }
+    }
+}
+

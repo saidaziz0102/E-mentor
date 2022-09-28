@@ -1,0 +1,58 @@
+@import 'base/variables';
+@import 'blocks/buttons';
+@import 'blocks/titles';
+@import 'blocks/descriptions';
+
+
+*,
+*:before,
+*:after {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+li {
+    list-style: none;
+}
+
+a {
+    text-decoration: none;
+    color: inherit;
+}
+
+:is(.btn){
+    animation: anim .9s infinite ease-in;
+}
+@keyframes anim {
+    0%{box-shadow: 0 0 20px $textcolor;}
+    25%{box-shadow: 0 0 4px $textcolor;}
+    50%{box-shadow: 0 0 6px $textcolor;}
+    75%{box-shadow: 0 0 8px $textcolor;}
+    100%{box-shadow: 0 0 10px $textcolor;}
+}
+
+body {
+    font-family: 'Raleway';
+    font-style: normal;
+}
+
+.container {
+    max-width: 1150px;
+    margin: 0 auto;
+}
+
+@import '../sass/blocks/header';
+@import 'blocks/offer';
+@import 'blocks/master';
+@import 'blocks/choose';
+@import 'blocks/popular';
+@import 'blocks/connect';
+@import 'blocks/footer';
+@import 'blocks/navbar';
+@import 'blocks/motion';
+@import 'blocks/actual';
+@import 'blocks/structure';
+@import 'blocks/sale';
+@import 'blocks/question';
+@import 'base/media';

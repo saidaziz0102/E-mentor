@@ -1,0 +1,106 @@
+.footer {
+    &__main {
+        width: 100%;
+        margin-top: 120px;
+        padding-top: 80px;
+        padding-bottom: 50px;
+        border-top: 2px solid $textcolor;
+        border-bottom: 2px solid $textcolor;
+    }
+
+    &__wrapper {
+        display: flex;
+    }
+
+    &__desc {
+        width: 20%;
+    }
+
+    &__text {
+        padding-top: 35px;
+    }
+
+    &__social {
+        padding-top: 50px;
+        display: flex;
+
+        &-name {
+            color: transparent;
+            margin-left: 10px;
+        }
+
+        &-icon {
+            display: flex;
+            opacity: 0.3;
+            font-size: 25px;
+            margin-right: 10px;
+
+            &:hover .footer__social-name {
+                color: $textcolor;
+            }
+        }
+    }
+
+    &__inner {
+        display: flex;
+        margin-left: 120px;
+        gap: 80px;
+    }
+
+    &__item {
+        width: 132px;
+        &-title {
+            font-weight: 500;
+
+            &:hover {
+                text-shadow: 0 0 15px $textcolor;
+            }
+        }
+    }
+
+    &__menu {
+        padding-top: 18px;
+
+        &-item {
+            padding-top: 15px;
+
+            &:hover {
+                text-decoration: underline;
+            }
+        }
+    }
+
+    &__contact {
+        margin-left: 30px;
+        &-title {
+            font-weight: 500;
+
+            &:hover {
+                text-shadow: 0 0 15px $textcolor;
+            }
+        }
+    }
+
+    &__email {
+        width: 182px;
+        padding-top: 18px;
+    }
+
+    &__btn {
+        text-decoration: underline;
+    }
+
+    &__navbar {
+        display: flex;
+        justify-content: space-between;
+        padding: 30px 0;
+    }
+
+    &__info {
+        display: flex;
+
+        &-item {
+            margin-left: 30px;
+        }
+    }
+}

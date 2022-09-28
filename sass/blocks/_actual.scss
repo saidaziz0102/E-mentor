@@ -1,0 +1,19 @@
+.actual{
+    margin-top: 120px;
+    height: 556px;
+    background-color: $primarycolor;
+    &__wrapper{
+        display: flex;
+        justify-content: space-between;
+        padding:120px 0 ;
+    }
+    &__desc{
+        width: 500px;
+        &-text{
+            margin-top: 20px;
+        }
+        &-btn{
+            margin-top: 50px;
+        }
+    }
+}

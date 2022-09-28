@@ -1,0 +1,103 @@
+.header {
+    height: 900px;
+    background-color: $primarycolor;
+    color: $ternarycolor;
+
+    &__list {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+
+        &-item {
+            margin: 40px 40px 0 0;
+            // border-bottom: 2px solid transparent;
+            transition: all .3s;
+
+            // &:hover {
+            //     border-bottom: 2px solid $secondarycolor;
+            // }
+        }
+        &-active{
+            border-bottom: 2px solid $secondarycolor;
+        }
+    }
+
+    &__content {
+        margin-top: 148px;
+        position: relative;
+
+        &::before {
+            content: '';
+            width: 270px;
+            height: 330px;
+            background-image: url(../images/header/1.png);
+            position: absolute;
+            bottom: -100;
+            left: 0;
+        }
+
+        &::after {
+            content: '';
+            width: 270px;
+            height: 330px;
+            background-image: url(../images/header/2.png);
+            position: absolute;
+            top: -80;
+            right: 0;
+        }
+    }
+
+    &__social {
+        position: absolute;
+        top: -84;
+        left: 10;
+        // width: 100px;
+
+        &-name {
+            color: transparent;
+            transition: all .3s;
+            padding-left: 10px;
+        }
+
+        &-icon {
+            margin-bottom: 30px;
+            font-size: 22px;
+            display: flex;
+            transition: all .3s;
+            justify-content: space-between;
+
+            &:hover .header__social-name {
+                color: $ternarycolor;
+            }
+        }
+    }
+
+    &__wrapper {
+        margin: 0 auto;
+        max-width: 542px;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+    &__logo {
+        margin-top: 25px;
+    }
+
+    &__title {
+        margin-top: 40px;
+        text-align: center;
+    }
+
+    &__desc {
+        margin-top: 20px;
+        text-align: center;
+    }
+    &__btn {
+        margin-top: 50px;
+    }
+}
+// .burger{
+//     display: none;
+// }

@@ -1,0 +1,29 @@
+@import '../base/variables';
+
+.btn {
+   width: 230px;
+    height: 56px;
+    border-radius: 0px 20px;
+    color: $ternarycolor;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transition: all .3s;
+    position: relative;
+    z-index: 100;
+
+  &--coral{
+    background: $secondarycolor;
+    &:hover {
+        box-shadow: 0 0 10px $ternarycolor;
+    }
+  }
+
+    
+    &--green {
+        background: $primarycolor;
+        &:hover {
+            box-shadow: 0 0 10px $textcolor;
+        }
+    }
+}
