@@ -619,6 +619,9 @@ body {
   .choose__desc {
     width: 40%;
   }
+  .popular__inner {
+    justify-content: center;
+  }
   .popular__item {
     width: 30%;
     justify-content: center;
@@ -663,6 +666,7 @@ body {
   .offer__inner {
     flex-wrap: wrap;
     gap: 30px 0;
+    justify-content: center;
   }
   .offer__item {
     width: 30%;
